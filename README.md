@@ -1,6 +1,6 @@
 # QoS-aware CIO control in mobile cellular networks
 
-An auditable research implementation accompanying **“Deep Reinforcement Learning Approach to QoS Aware Load Balancing in 5G Cellular Networks under User Mobility and Observation Uncertainty”**, manuscript `Thesis - v11.pdf`, by M. Eskandarpour and H. Soleimani.
+An auditable research implementation accompanying **“Deep Reinforcement Learning Approach to QoS Aware Load Balancing in 5G Cellular Networks under User Mobility and Observation Uncertainty”**, manuscript by M. Eskandarpour and H. Soleimani.
 
 **Status: a newly written, manuscript-grounded reconstruction.** The uploaded PDF did not contain the original code, training logs, checkpoints, random seeds, or complete simulator parameters. This package implements the described research workflow with explicitly documented choices. Its outputs are new experiments, not recovered evidence for the manuscript's reported results. Read [the manuscript audit](supplement/MANUSCRIPT_AUDIT.md) before using these files in a submission.
 
