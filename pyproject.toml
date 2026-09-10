@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qos-cio-research"
+version = "0.1.0"
+description = "Auditable reconstruction of PPO-based QoS-aware cellular load balancing"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "matplotlib>=3.7,<4", "torch>=2.2,<3", "PyYAML>=6,<7"]
+
+[project.scripts]
+qos-cio = "qos_cio.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qos_cio*"]
